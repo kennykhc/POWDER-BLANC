@@ -1,0 +1,578 @@
+@import url(reset.css);
+
+body{
+    background-color: #fff;
+    /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+    /* font-family: 'Noto Sans TC', sans-serif; */
+    font-family: 'Public Sans', sans-serif;
+    
+    
+   
+}
+
+
+/* --------- header top --------- */
+
+
+header{
+    margin: auto;
+    width: 100%;
+    height: 1000px;
+    background-image: url("../IMG/main/top-bg.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+    position: relative;
+}
+.header-top{
+    height: 75px;
+    background-color:#19297C;
+    
+    position: relative;
+     
+}
+
+.header-top:before{
+    content: '';
+    display: block;
+    height: 150px;
+    background-color: rgb(25, 41, 124, 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); 
+}
+
+
+.header-menu{
+    width: 1366px;
+    margin: auto;
+    display: flex;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+.header-menu .logo{
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    display: block;
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+
+}
+
+.header-menu .logo img{
+    width: 150px;
+    margin: auto;
+    padding-top: 40px;
+    display: block;
+}
+
+.header-menu ul{
+    display: flex;
+    margin-left: auto;
+    width: 800px;
+    height: 75px;
+}
+
+.header-menu li{
+    flex-grow: 1;
+}
+
+.header-menu li a{
+    line-height: 75px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.header-menu li a:before{
+    content: '';
+    display: block;
+    width: 3px;
+    height: 30px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+}
+
+.header-menu li:nth-child(1)>a:before{
+    display: none;
+}
+
+.header-menu li a:hover{
+    color: yellow;
+}  
+
+
+/* --------- header report --------- */
+
+
+.header-report{
+    background-color:  rgb(25, 41, 124, 80%);
+    height: 500px;
+    width: 440px;
+    
+    position: absolute;
+    right: 0;
+    bottom: -720px;
+    z-index: 99;
+    
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+    
+}
+
+
+.header-report h2{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.report-left{
+    float: left;
+    width: 220px;
+}
+
+.report-right{
+    float: right;
+    width: 220px;
+}
+
+.r-info{
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;    
+}
+
+.r-icon img{
+    width: 100px;
+    margin: auto;
+    padding-top: 40px;
+    display: block;
+}
+
+.r-num-t{
+    font-size: 85px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;    
+}
+
+.r-num{
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 25px;    
+}
+
+.r-num:after{
+    content: 'cm';
+    margin-left: 40px;
+    font-size: 24px; 
+}
+
+/* --------- header bottom --------- */
+
+
+.header-bottom{
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    
+    clip-path: polygon(0 20%, 100% 70%, 100% 100%, 0% 100%);
+
+    
+}
+
+
+.header-bottom img{
+    display: block;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+/* --------- main btn --------- */
+
+.main{
+    width: 1366px;
+    margin: auto;
+}
+
+.main-btn ul{
+    display: flex;
+}
+
+.main-btn li{
+    margin: 50px auto;
+    
+}
+
+.main-btn img{
+    height: 80px;
+    margin-top: 30px;
+}
+
+.main-btn a{
+    border: 3px solid black;
+    display: block;
+    width: 180px;
+    height: 180px;
+    text-decoration: none;
+    text-align: center;
+    background-color: yellow;
+}
+
+.main-btn a span{
+    display: block;
+    font-size: 24px;
+    margin-top: 20px;
+    color: black;
+    font-weight:bold;
+}
+
+.main-btn a:hover{
+    background-color: #19297C;
+}
+
+.main-btn a:hover span{
+    color: #fff;
+}
+
+
+
+
+/* --------- main news --------- */
+
+
+.main-news h2{
+    font-size: 60px;
+    text-align: center;
+    margin: 80px auto 30px;
+    width: 600px;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 5px solid black;  
+}
+
+.main-news ul{
+    display: flex;
+}
+
+.main-news li{
+    margin: 50px auto;
+}
+
+.main-news img{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.main-news a{
+    background-color: yellow;
+    display: block;
+    width: 240px;
+    height: 400px;
+    text-align: center;
+    text-decoration: none;
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%);
+}
+
+.main-news span{
+    display: block;
+    color: black;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 50px;
+
+    position: relative;
+}
+
+.news1 span::before{
+    content: '2022.04.01';
+    display: block;
+    font-size: 16px;
+    font-weight:bold;
+    width: 100px;
+    border-bottom: 2px solid #19297C;
+
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+.news2 span::before{
+    content: '2022.03.01';
+    display: block;
+    font-size: 16px;
+    font-weight:bold;
+    width: 100px;
+    border-bottom: 2px solid #19297C;
+
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+.news3 span::before{
+    content: '2022.02.28';
+    display: block;
+    font-size: 16px;
+    font-weight:bold;
+    width: 100px;
+    border-bottom: 2px solid #19297C;
+
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+.news4 span::before{
+    content: '2022.02.15';
+    display: block;
+    font-size: 16px;
+    font-weight:bold;
+    width: 100px;
+    border-bottom: 2px solid #19297C;
+
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+
+.news-block a:hover{
+    background-color: #19297C;
+}
+
+.news-block a:hover span{
+    color: #fff;
+}
+
+
+
+/* --------- about --------- */
+.about-bg{
+    background-image: url('../IMG/main/about_bg.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 100px;
+    
+}
+
+.about{
+    height: 1400px;
+    width: 1366px;
+    margin: auto;
+
+    position: relative;
+}
+
+.about h2{
+    border-bottom: 4px solid black;
+    width: 700px;
+    height: 80px;
+    font-size: 48px;
+    line-height: 80px;
+    font-weight:bold;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.about-content{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255, 80%);
+    padding: 50px;
+    box-sizing: border-box;
+
+
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.about-content p{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+/* --------- yt --------- */
+
+.yt{
+    width: 1200px;
+    height: 600px;
+    background-color: orange;
+
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+
+    position: absolute;
+    right: -200px;
+    bottom: 0;
+}
+
+.yt .yt-content{
+    width: 650px;
+    height: 400px;
+    background-color: white;
+    margin: 100px auto ;
+}
+
+.yt-content img{
+    width: 300px;
+    display: block;
+    margin: auto;   
+    
+    padding-top: 120px;
+}
+
+.yt-content h3{
+    width: 300px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+    
+    position: relative;
+    
+}
+
+.yt-content h3::before{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: black;
+
+    position: absolute;
+    top: 10px;
+    left: -30px;
+}
+
+.yt-content h3::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: black;
+
+    position: absolute;
+    top: 10px;
+    right: -30px;
+}
+
+.yt-content p{
+    font-size: 16px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.yt-video img{
+    width: 600px;
+    display: block;
+
+    position: absolute;
+    left: 100px;
+    bottom: 60px;
+
+}
+
+
+
+/* --------- footer --------- */
+
+footer{
+    height: 400px;
+    background-color: #19297C;
+}
+
+.footer{
+    width: 1366px;
+    margin: auto;
+
+    display: flex;
+}
+
+.footer-logo{
+    height: 400px;
+    flex-grow: 1;
+}
+
+.footer-logo img{
+    width: 200px;
+    display: block;
+    margin: 110px auto;
+}
+
+.footer-info{
+    flex-grow: 5;
+    display: flex;
+
+    position: relative;
+}
+
+.footer-info::before{
+    content: '';
+    display: block;
+    width: 950px;
+    height: 2px;
+    background-color: #fff;
+
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+}
+
+.footer-info::after{
+    content: '本網站為緯育TibaMe前端設計工程師班第76期學員專題作品，本平台僅供學習、展示之用。';
+    display: block;
+    width: 950px;
+    color: #fff;
+    text-align: center;
+
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+}
+
+.footer-info .info-access{
+    color: #fff;
+    height: 150px;
+    font-size: 24px;
+    line-height: 2;
+    margin: 100px 0 0 100px;
+    
+    flex-grow: 2;
+}
+
+.footer-info .info-sns{
+    height: 150px;
+    margin: 100px 30px;
+    
+    flex-grow: 1;
+}
+
+.footer-info .info-sns img{
+        width: 50px;
+        margin: 80px 20px 0;
+}

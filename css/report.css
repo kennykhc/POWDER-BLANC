@@ -1,0 +1,715 @@
+@import url(reset.css);
+
+body{
+    background-color: #fff;
+    /* font-family: 'M PLUS Rounded 1c', sans-serif; */
+    /* font-family: 'Noto Sans TC', sans-serif; */
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+/* --------- header top --------- */
+header{
+    margin: auto;
+    width: 100%;
+    height: 650px;
+    background-image: url("../IMG/report/top_bg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+    position: relative;
+}
+.header-top{
+    height: 75px;
+    background-color:#19297C;
+    
+    position: relative;
+    
+    
+}
+
+.header-top:before{
+    content: '';
+    display: block;
+    height: 150px;
+    background-color: rgb(25, 41, 124, 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); 
+}
+
+
+.header-menu{
+    width: 1366px;
+    margin: auto;
+    display: flex;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    
+}
+
+
+.header-menu .logo{
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    display: block;
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+    
+}
+
+.header-menu .logo img{
+    width: 150px;
+    margin: auto;
+    padding-top: 40px;
+    display: block;
+}
+
+.header-menu ul{
+    display: flex;
+    margin-left: auto;
+    width: 800px;
+    height: 75px;
+    
+    position: relative;
+}
+
+.header-menu ul::before{
+    content: 'REPORT';
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+
+
+
+    position: absolute;
+    bottom: -520px;
+    left: -500px;
+    z-index: 99;
+}
+
+
+
+.header-menu li{
+    flex-grow: 1;
+}
+
+.header-menu li a{
+    line-height: 75px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.header-menu li a:before{
+    content: '';
+    display: block;
+    width: 3px;
+    height: 30px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+}
+
+.header-menu li:nth-child(1)>a:before{
+    display: none;
+}
+
+.header-menu li a:hover{
+    color: yellow;
+}
+
+/* --------- header bottom --------- */
+
+
+.header-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    
+    clip-path: polygon(0 20%, 100% 70%, 100% 100%, 0% 100%);
+
+     
+}
+
+
+.header-bottom img{
+    display: block;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+/* --------- main --------- */
+
+.main-bg{
+    height: 900px;
+    background-image: url(../IMG/report/main-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 100px;
+}
+
+/* --------- main snow --------- */
+.main-snow{
+    width: 1200px;
+    height: 250px;
+    background-color: #19297C;
+    margin: auto;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+    margin-bottom: 50px;
+    display: flex;
+
+}
+/* ------ main-snow .left ------ */
+.main-snow .left{
+    flex-grow: 4;
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+.main-snow .left::before{
+    content: '';
+    display: block;
+    width: 400px;
+    height: 2px;
+    background-color: #fff;
+
+    position: absolute;
+    bottom: 95px;
+    right: 50px;
+}
+
+.main-snow .left .info-q{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin: 50px 0 0 100px;   
+}
+
+.main-snow .left .info-a{
+    color: #fff;
+    font-size: 48px;
+    padding-left: 120px;
+    display: block;
+    text-align: center;
+    margin: 20px 0 25px 0
+}
+
+.main-snow .left .info-aa{
+    color: #fff;
+    font-size: 48px;
+    padding-left: 120px;
+    display: block;
+    text-align: center;
+}
+
+.main-snow .left .info-a::before{
+    content: '山頂';
+    font-size: 24px;
+    padding-right: 100px;
+}
+
+.main-snow .left .info-aa::before{
+    content: '山麓';
+    font-size: 24px;
+    padding-right: 100px;
+}
+
+/* ------ main-snow .mid ------ */
+.main-snow .mid{
+    flex-grow: 1;
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+
+.main-snow .mid::before{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 100px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.main-snow .mid .info-q{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin: 50px;
+}
+
+.main-snow .mid .info-a{
+    color: #fff;
+    font-size: 48px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+/* ------ main-snow .right ------ */
+.main-snow .right{
+    flex-grow: 1;
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+
+.main-snow .right::before{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 100px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.main-snow .right .info-q{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin: 50px;
+}
+
+.main-snow .right .info-a{
+    color: #fff;
+    font-size: 48px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* --------- main weather --------- */
+
+.main-weather{
+    width: 1200px;
+    height: 450px;
+    background-color: rgb(255, 255, 255, 80%);
+    margin: auto;
+}
+
+.main-weather .title{
+    font-size: 40px;
+    border-bottom: 5px solid black;
+    text-align: center;
+    padding-top: 40px;
+    margin: auto;
+    height: 60px;
+    width: 1000px;  
+}
+/* --------- main weather left --------- */
+.temp{
+    display: flex;
+}
+
+.temp .left{
+    width: 450px;
+}
+
+.temp .left .info-i{
+    display: flex;
+}
+
+.temp .left .info-i img{
+    width: 100px;
+    margin: 80px 60px 0 80px;
+}
+
+.temp .left .info-t{
+    font-size: 80px;
+    width: 100px;
+    height: 100px;
+    margin-top: 80px;
+    line-height: 100px;
+    position: relative;
+}
+
+.temp .left .info-t::before{
+    content: 'SUNNY';
+    font-size: 40px;
+
+    position: absolute;
+    left: -70px;
+    bottom: -100px;
+}
+
+
+.temp .left .info-t::after{
+    content: '℃';
+    font-size: 30px;
+
+    position: absolute;
+    right: -30px;
+    bottom: -10px;
+}
+
+
+
+/* --------- main weather right --------- */
+.temp .right{
+    width: 750px;
+}
+
+.right li{
+    width: 60px;
+    height: 200px;
+    display: inline-block;
+    margin: 40px 35px;
+}
+.temp .right .day{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.temp .right .pic{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+.temp .right .pic img{
+    display: block;
+    width: 50px;
+    
+}
+.temp .right .bar{
+    width: 20px;
+    background-color: #5C9ABC;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+
+/* --------- bar wed---------- */
+.temp .right .bar-wed{
+    height: 70px;
+    margin-top: 60px;
+    position: relative;
+}
+.temp .right .bar-wed::before{
+    content: '3℃';
+    position: absolute;
+    font-size: 16px;
+    top: -30px;
+}
+.temp .right .bar-wed::after{
+    content: '-4℃';
+    position: absolute;
+    font-size: 16px;
+    bottom: -30px; 
+}
+/* --------- bar thu---------- */
+.temp .right .bar-thu{
+    height: 50px;
+    margin-top: 70px;
+    position: relative;
+}
+.temp .right .bar-thu::before{
+    content: '2℃';
+    position: absolute;
+    font-size: 16px;
+    top: -30px;
+}
+.temp .right .bar-thu::after{
+    content: '-3℃';
+    position: absolute;
+    font-size: 16px;
+    bottom: -30px;
+}
+
+
+
+/* --------- bar fri---------- */
+.temp .right .bar-fri{
+    height: 40px;
+    margin-top: 100px;
+    position: relative;
+}
+.temp .right .bar-fri::before{
+    content: '-1℃';
+    position: absolute;
+    font-size: 16px;
+    top: -30px;
+
+}
+.temp .right .bar-fri::after{
+    content: '-5℃';
+    position: absolute;
+    font-size: 16px;
+    bottom: -30px; 
+}
+
+
+/* --------- bar sat---------- */
+.temp .right .bar-sat{
+    height: 40px;
+    margin-top: 90px;
+    position: relative;
+}
+.temp .right .bar-sat::before{
+    content: '0℃';
+    position: absolute;
+    font-size: 16px;
+    top: -30px;
+}
+.temp .right .bar-sat::after{
+    content: '-4℃';
+    position: absolute;
+    font-size: 16px;
+    bottom: -30px; 
+}
+
+
+/* --------- bar sun---------- */
+.temp .right .bar-sun{
+    height: 30px;
+    margin-top: 60px;
+    position: relative;
+}
+.temp .right .bar-sun::before{
+    content: '3℃';
+    position: absolute;
+    font-size: 16px;
+    top: -30px;
+}
+.temp .right .bar-sun::after{
+    content: '0℃';
+    position: absolute;
+    font-size: 16px;
+    bottom: -30px; 
+}
+
+/* --------------- lift & course -------------------- */
+
+
+.lift_course{
+    height: 1000px;
+    width: 1366px;
+    margin: auto;
+    display: flex;
+}
+
+.lift_course .pic{
+    
+    height: 870px;
+    width: 700px; 
+}
+
+.lift_course .info{
+    
+    height: 870px;
+    width: 700px;
+}
+
+.lift_course .info li{
+    width: 600px;
+    height: 140px;
+    margin: 65px auto;
+}
+
+.lift_course .info .lift{
+    background-color: #15009D;
+}
+.lift_course .info .green{
+    background-color: #008715;
+}
+.lift_course .info .red{
+    background-color: #EC0000;
+}
+.lift_course .info .black{
+    background-color: black;
+}
+
+.lift_course .info span{
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    line-height: 70px;
+    text-align: center;
+}
+
+/* --------------- live cam -------------- */
+
+.live_cam .title{
+    font-size: 60px;
+    width: 800px;
+    height: 90px;
+    text-align: center;
+    display: block;
+    margin: auto;
+
+    position: relative;
+}
+
+.live_cam .title::after{
+    content: '';
+    display: block;
+    width: 400px;
+    height: 50px;
+    background-color: yellow;
+
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+
+    position: absolute;
+    bottom: 5px;
+    left: 180px;
+    z-index: -1;
+}
+
+.live_cam .cam{
+    width: 1366px;
+    margin: auto;
+}
+
+.live_cam .cam ul{
+    display: flex;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.live_cam .cam .c-left{
+    width:500px;
+    flex-grow: 1;
+}
+
+.live_cam .cam .r-left{
+    width: 500px;
+    flex-grow: 1;
+}
+
+
+.live_cam .cam img{
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.live_cam .cam span{
+    font-size: 30px;
+    line-height: 90px;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+.live_cam .cam span::after{
+    content: '';
+    display: block;
+    width: 350px;
+    height: 30px;
+    background-color: yellow;
+
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+
+    position: absolute;
+    bottom: -5px;
+    left: -40px;
+    z-index: -1;
+}
+
+
+/* --------- footer --------- */
+
+footer{
+    height: 400px;
+    background-color: #19297C;
+}
+
+.footer{
+    width: 1366px;
+    margin: auto;
+
+    display: flex;
+}
+
+.footer-logo{
+    height: 400px;
+    flex-grow: 1;
+}
+
+.footer-logo img{
+    width: 200px;
+    display: block;
+    margin: 110px auto;
+}
+
+.footer-info{
+    flex-grow: 5;
+    display: flex;
+
+    position: relative;
+}
+
+.footer-info::before{
+    content: '';
+    display: block;
+    width: 950px;
+    height: 2px;
+    background-color: #fff;
+
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+}
+
+.footer-info::after{
+    content: '本網站為緯育TibaMe前端設計工程師班第76期學員專題作品，本平台僅供學習、展示之用。';
+    display: block;
+    width: 950px;
+    color: #fff;
+    text-align: center;
+
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+}
+
+.footer-info .info-access{
+    color: #fff;
+    height: 150px;
+    font-size: 24px;
+    line-height: 2;
+    margin: 100px 0 0 100px;
+    
+    flex-grow: 2;
+}
+
+.footer-info .info-sns{
+    height: 150px;
+    margin: 100px 30px;
+    
+    flex-grow: 1;
+}
+
+.footer-info .info-sns img{
+        width: 50px;
+        margin: 80px 20px 0;
+}
