@@ -5,11 +5,8 @@ body{
     /* font-family: 'M PLUS Rounded 1c', sans-serif; */
     /* font-family: 'Noto Sans TC', sans-serif; */
     font-family: 'Public Sans', sans-serif;
-    
-    
-   
-}
 
+}
 
 /* --------- header top --------- */
 
@@ -18,12 +15,14 @@ header{
     margin: auto;
     width: 100%;
     height: 1000px;
-    background-image: url("../IMG/main/top-bg.jpeg");
+    background-image: url("../IMG/index/top-bg.jpeg");
     background-repeat:no-repeat;
     background-size: cover;
     background-position: top center;
 
     position: relative;
+
+    overflow: hidden;
 }
 .header-top{
     height: 75px;
@@ -214,6 +213,7 @@ header{
 .main{
     width: 1366px;
     margin: auto;
+
 }
 
 .main-btn ul{
@@ -237,7 +237,7 @@ header{
     height: 180px;
     text-decoration: none;
     text-align: center;
-    background-color: yellow;
+    background-color: rgb(255, 255, 0, 50%);
 }
 
 .main-btn a span{
@@ -250,6 +250,9 @@ header{
 
 .main-btn a:hover{
     background-color: #19297C;
+}
+.main-btn a:hover img{
+    filter: invert(100%);
 }
 
 .main-btn a:hover span{
@@ -286,7 +289,7 @@ header{
 }
 
 .main-news a{
-    background-color: yellow;
+    background-color: rgb(255, 255, 0, 50%);
     display: block;
     width: 240px;
     height: 400px;
@@ -371,7 +374,7 @@ header{
 
 /* --------- about --------- */
 .about-bg{
-    background-image: url('../IMG/main/about_bg.png');
+    background-image: url('../IMG/index/about_bg.png');
     background-repeat: no-repeat;
     background-position: top center;
     margin-top: 100px;
@@ -384,6 +387,8 @@ header{
     margin: auto;
 
     position: relative;
+
+    overflow: hidden;
 }
 
 .about h2{
@@ -498,81 +503,3 @@ header{
 }
 
 
-
-/* --------- footer --------- */
-
-footer{
-    height: 400px;
-    background-color: #19297C;
-}
-
-.footer{
-    width: 1366px;
-    margin: auto;
-
-    display: flex;
-}
-
-.footer-logo{
-    height: 400px;
-    flex-grow: 1;
-}
-
-.footer-logo img{
-    width: 200px;
-    display: block;
-    margin: 110px auto;
-}
-
-.footer-info{
-    flex-grow: 5;
-    display: flex;
-
-    position: relative;
-}
-
-.footer-info::before{
-    content: '';
-    display: block;
-    width: 950px;
-    height: 2px;
-    background-color: #fff;
-
-    position: absolute;
-    bottom: 120px;
-    left: 100px;
-}
-
-.footer-info::after{
-    content: '本網站為緯育TibaMe前端設計工程師班第76期學員專題作品，本平台僅供學習、展示之用。';
-    display: block;
-    width: 950px;
-    color: #fff;
-    text-align: center;
-
-    position: absolute;
-    bottom: 70px;
-    left: 100px;
-}
-
-.footer-info .info-access{
-    color: #fff;
-    height: 150px;
-    font-size: 24px;
-    line-height: 2;
-    margin: 100px 0 0 100px;
-    
-    flex-grow: 2;
-}
-
-.footer-info .info-sns{
-    height: 150px;
-    margin: 100px 30px;
-    
-    flex-grow: 1;
-}
-
-.footer-info .info-sns img{
-        width: 50px;
-        margin: 80px 20px 0;
-}

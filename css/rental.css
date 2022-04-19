@@ -19,6 +19,7 @@ header{
     background-position: top center;
 
     position: relative;
+    overflow: hidden;
 }
 .header-top{
     height: 75px;
@@ -237,80 +238,3 @@ header{
 }
 
 
-/* --------- footer --------- */
-
-footer{
-    height: 400px;
-    background-color: #19297C;
-}
-
-.footer{
-    width: 1366px;
-    margin: auto;
-
-    display: flex;
-}
-
-.footer-logo{
-    height: 400px;
-    flex-grow: 1;
-}
-
-.footer-logo img{
-    width: 200px;
-    display: block;
-    margin: 110px auto;
-}
-
-.footer-info{
-    flex-grow: 5;
-    display: flex;
-
-    position: relative;
-}
-
-.footer-info::before{
-    content: '';
-    display: block;
-    width: 950px;
-    height: 2px;
-    background-color: #fff;
-
-    position: absolute;
-    bottom: 120px;
-    left: 100px;
-}
-
-.footer-info::after{
-    content: '本網站為緯育TibaMe前端設計工程師班第76期學員專題作品，本平台僅供學習、展示之用。';
-    display: block;
-    width: 950px;
-    color: #fff;
-    text-align: center;
-
-    position: absolute;
-    bottom: 70px;
-    left: 100px;
-}
-
-.footer-info .info-access{
-    color: #fff;
-    height: 150px;
-    font-size: 24px;
-    line-height: 2;
-    margin: 100px 0 0 100px;
-    
-    flex-grow: 2;
-}
-
-.footer-info .info-sns{
-    height: 150px;
-    margin: 100px 30px;
-    
-    flex-grow: 1;
-}
-
-.footer-info .info-sns img{
-        width: 50px;
-        margin: 80px 20px 0;
-}
