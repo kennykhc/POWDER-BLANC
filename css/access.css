@@ -178,11 +178,12 @@ iframe{
     content: '';
     display: block;
     width: 1000px;
-    height: 20px;
+    height: 60px;
     background-color:#19297C;
 
     position: absolute;
-    bottom: -20px;
+    bottom: -30px;
+    z-index: -1;
 
     clip-path: polygon(0 0, 97% 0, 100% 100%, 0% 100%);
 }
@@ -192,44 +193,16 @@ iframe{
 }
 
 .trans .info{
-    height: 250px;
+    height: 350px;
     width: 500px;
     margin-left: 50px;
-    align-self: center;
-    display: flex;
-
-    position: relative;
 }
 
-.trans .bus-info::before{
-    content: 'By BUS';
-    display: block;
-    height: 50px;
+.trans .info h3{
     font-size: 40px;
-
-    position: absolute;
-    top: -50px;
+    padding: 20px 0 50px 0;
 }
 
-.trans .car-info::before{
-    content: 'By CAR';
-    display: block;
-    height: 50px;
-    font-size: 40px;
-
-    position: absolute;
-    top: -50px;
-}
-
-.trans .train-info::before{
-    content: 'By TRAIN';
-    display: block;
-    height: 50px;
-    font-size: 40px;
-
-    position: absolute;
-    top: -50px;
-}
 
 .trans .info p{
     font-size: 24px;

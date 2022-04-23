@@ -152,7 +152,7 @@ header{
     display: block;
     text-align: center;
     font-size: 24px;
-    margin-top: 40px;    
+    margin-top: 30px;    
 }
 
 .r-icon img{
@@ -176,7 +176,7 @@ header{
     display: block;
     text-align: center;
     font-size: 40px;
-    padding-top: 25px;    
+    padding-top: 35px;    
 }
 
 .r-num:after{
@@ -212,12 +212,14 @@ header{
 
 .main{
     width: 1366px;
+    /* width: auto; */
     margin: auto;
 
 }
 
 .main-btn ul{
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .main-btn li{
@@ -237,7 +239,7 @@ header{
     height: 180px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(255, 255, 0, 50%);
+    background-color: 	#FFB630;
 }
 
 .main-btn a span{
@@ -260,8 +262,6 @@ header{
 }
 
 
-
-
 /* --------- main news --------- */
 
 
@@ -281,6 +281,8 @@ header{
 
 .main-news li{
     margin: 50px auto;
+    /* filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5)); */
+    /* box-shadow: 3px 3px 3px; */
 }
 
 .main-news img{
@@ -289,7 +291,7 @@ header{
 }
 
 .main-news a{
-    background-color: rgb(255, 255, 0, 50%);
+    background-color: #FFB630;
     display: block;
     width: 240px;
     height: 400px;
@@ -302,7 +304,7 @@ header{
 .main-news span{
     display: block;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
     margin-top: 50px;
 
@@ -407,9 +409,8 @@ header{
     width: 500px;
     height: 500px;
     background-color: rgb(255, 255, 255, 80%);
-    padding: 50px;
+    padding: 60px;
     box-sizing: border-box;
-
 
     position: absolute;
     top: 200px;
@@ -419,6 +420,7 @@ header{
 .about-content p{
     font-size: 24px;
     line-height: 1.5;
+    text-align: center;
 }
 
 /* --------- yt --------- */

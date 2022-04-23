@@ -143,13 +143,13 @@ header{
      
 }
 
-
 .header-bottom img{
     display: block;
     right: 0;
     left: 0;
     margin: auto;
 }
+
 
 /* --------- main --------- */
 
@@ -201,29 +201,29 @@ header{
 
 .main-snow .left .info-a{
     color: #fff;
-    font-size: 48px;
+    font-size: 40px;
     padding-left: 120px;
     display: block;
     text-align: center;
-    margin: 20px 0 25px 0
+    margin: 20px 0 40px 0
 }
 
 .main-snow .left .info-aa{
     color: #fff;
-    font-size: 48px;
-    padding-left: 120px;
+    font-size: 40px;
+    padding-left: 100px;
     display: block;
     text-align: center;
 }
 
 .main-snow .left .info-a::before{
-    content: '山頂';
+    content: 'TOP';
     font-size: 24px;
     padding-right: 100px;
 }
 
 .main-snow .left .info-aa::before{
-    content: '山麓';
+    content: 'FOOT';
     font-size: 24px;
     padding-right: 100px;
 }
@@ -259,7 +259,7 @@ header{
 
 .main-snow .mid .info-a{
     color: #fff;
-    font-size: 48px;
+    font-size: 40px;
     display: block;
     text-align: center;
     padding-top: 20px;
@@ -295,7 +295,7 @@ header{
 
 .main-snow .right .info-a{
     color: #fff;
-    font-size: 48px;
+    font-size: 40px;
     display: block;
     text-align: center;
     padding-top: 20px;
