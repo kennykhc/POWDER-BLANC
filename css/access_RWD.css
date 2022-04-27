@@ -1,0 +1,86 @@
+
+@media screen and (max-width:428px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* <!-- -------------- map 428 ------------ --> */
+    iframe{
+        width: 350px;
+        height: 200px;
+    }
+    /* <!-- ------------- trans 428 ------------ --> */
+    .trans{
+        width: 350px;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .trans img{
+        width: 200px;
+        display: block;
+        margin-left: auto;
+    }
+
+    .trans .info{
+        width: auto;
+        height: 200px;
+        margin-left: 10px;
+    }
+
+    .trans .info h3{
+        font-size: 24px;
+        padding-left: 10px;
+        margin-top: -200px;
+    }
+
+    .trans .info p{
+        font-size: 16px;
+        margin-top: 110px;
+        padding: 20px 10px 0 10px;
+
+        position: relative;
+    }
+
+    .trans::after{
+        display: none;
+    } 
+    
+    .trans .info h3::before{
+        width: 8px;
+        height: 25px;
+        
+        left: -5px;
+    }
+
+    .trans p::after{
+        content: '';
+        display: block;
+        width: 300px;
+        height: 15px;
+        background-color:#19297C;
+        
+        clip-path: polygon(5% 0, 100% 0, 100% 100%, 0% 100%);    
+        
+        position: absolute;
+        top: -10px;
+        right: 0;
+        z-index: -1;
+    }
+
+}
