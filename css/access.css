@@ -127,7 +127,7 @@ header{
 }
 
 .header-menu li a:hover{
-    color: yellow;
+    color: #FFB630;
 }
 
 /* --------- header bottom --------- */
@@ -200,7 +200,20 @@ iframe{
 
 .trans .info h3{
     font-size: 40px;
-    padding: 20px 0 50px 0;
+    padding: 20px 0 50px 40px;
+
+    position: relative;
+}
+
+.trans .info h3::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 40px;
+    background-color: #FFB630;
+
+    position: absolute;
+    left: 10px;
 }
 
 

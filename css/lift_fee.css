@@ -127,7 +127,7 @@ header{
 }
 
 .header-menu li a:hover{
-    color: yellow;
+    color: #FFB630;
 }
 
 /* --------- header bottom --------- */
@@ -167,6 +167,8 @@ header{
     height: 700px;
     background-color: rgb(255, 255, 255, 50%);
     margin: auto;
+    padding-top: 150px;
+    box-sizing: border-box;
 
     position: relative;
 }
@@ -196,6 +198,13 @@ header{
     clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
 }
 
+.fee .btn a:hover{
+    background-color: #FFB630;
+    color: black;
+    font-weight: bold;
+}
+
+
 .fee .btn a span{
     display: block;
     height: 60px;
@@ -208,11 +217,11 @@ header{
 /* -------------- form -------------- */ 
 
 .form img{
-    border: 3px solid red;
-    width: 1000px;
-    height: 540px;
-    margin-top: 110px;
-    margin-left: 100px;
+    width: 930px;
+    height: 460px;
+    
+    display: block;
+    margin: auto;
 }
 
 

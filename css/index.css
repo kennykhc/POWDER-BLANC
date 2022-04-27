@@ -108,7 +108,7 @@ header{
 }
 
 .header-menu li a:hover{
-    color: yellow;
+    color: #FFB630;
 }  
 
 
@@ -196,8 +196,6 @@ header{
     margin: auto;
     
     clip-path: polygon(0 20%, 100% 70%, 100% 100%, 0% 100%);
-
-    
 }
 
 
@@ -219,6 +217,7 @@ header{
 
 .main-btn ul{
     display: flex;
+    margin-top: 100px;
     /* flex-wrap: wrap; */
 }
 
@@ -239,26 +238,29 @@ header{
     height: 180px;
     text-decoration: none;
     text-align: center;
-    background-color: 	#FFB630;
+    /* background-color: 	#FFB630; */
+    background-color: #19297C;
+    
 }
 
 .main-btn a span{
     display: block;
     font-size: 24px;
     margin-top: 20px;
-    color: black;
+    color: white;
     font-weight:bold;
 }
 
 .main-btn a:hover{
-    background-color: #19297C;
+    /* background-color: #19297C; */
+    background-color: 	#FFB630;
 }
 .main-btn a:hover img{
     filter: invert(100%);
 }
 
 .main-btn a:hover span{
-    color: #fff;
+    color: black;
 }
 
 
@@ -291,7 +293,7 @@ header{
 }
 
 .main-news a{
-    background-color: #FFB630;
+    background-color: #19297C;
     display: block;
     width: 240px;
     height: 400px;
@@ -303,7 +305,7 @@ header{
 
 .main-news span{
     display: block;
-    color: black;
+    color: white;
     font-size: 20px;
     line-height: 1.5;
     margin-top: 50px;
@@ -317,7 +319,8 @@ header{
     font-size: 16px;
     font-weight:bold;
     width: 100px;
-    border-bottom: 2px solid #19297C;
+    border-bottom: 2px solid #FFB630
+    ;
 
     position: absolute;
     top: -40px;
@@ -330,7 +333,7 @@ header{
     font-size: 16px;
     font-weight:bold;
     width: 100px;
-    border-bottom: 2px solid #19297C;
+    border-bottom: 2px solid #FFB630;
 
     position: absolute;
     top: -40px;
@@ -343,7 +346,7 @@ header{
     font-size: 16px;
     font-weight:bold;
     width: 100px;
-    border-bottom: 2px solid #19297C;
+    border-bottom: 2px solid #FFB630;
 
     position: absolute;
     top: -40px;
@@ -356,7 +359,7 @@ header{
     font-size: 16px;
     font-weight:bold;
     width: 100px;
-    border-bottom: 2px solid #19297C;
+    border-bottom: 2px solid #FFB630;
 
     position: absolute;
     top: -40px;
@@ -365,11 +368,16 @@ header{
 
 
 .news-block a:hover{
-    background-color: #19297C;
+    background-color: #FFB630;
 }
 
 .news-block a:hover span{
-    color: #fff;
+    color: black;
+}
+
+.news-block a:hover span::before{
+    border-bottom: 2px solid #19297C;
+    width: 100px;
 }
 
 
@@ -505,3 +513,16 @@ header{
 }
 
 
+
+
+
+
+
+
+/* --------------- RWD --------------- */
+
+
+@media screen and (max-width:414px) {
+    
+    
+}
