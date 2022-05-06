@@ -1,0 +1,148 @@
+@media screen and (max-width:414px){
+
+
+    /* ----------- RWD_header bg ----------- */
+
+    header{
+        background-position: 48%;  
+    }
+
+
+
+    /* ----------- RWD_intro ----------- */
+
+    .intro{
+        width: auto;
+        height: 900px;
+    }
+    
+    .intro h3{
+        font-size: 24px;
+        
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .intro1{
+        display:block;    
+        margin-top: 0px;
+        
+        position: relative;    
+    }
+    
+    .intro2{
+        display: block;
+        margin-top: 250px;
+        position: relative;
+    }
+
+    .intro p{
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 12px;
+        text-align: center;
+        padding: 20px;
+        height: auto;
+        width: auto;
+    }
+
+    .intro1 img{
+        position: absolute;
+        right: 50px;
+    }
+
+    .intro2 img{
+        position: absolute;
+        left: 50px;
+        bottom: -167px;
+    }
+
+    .intro img{
+        width: 250px;
+    }
+
+    .intro1::after{
+        width: 350px;
+        height: 30px;
+
+        bottom: -180px;
+        right: 20px;
+        clip-path: polygon(8% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .intro2::after{
+        width: 350px;
+        height: 30px;
+        
+        bottom: -180px;
+        left: 20px;
+        clip-path: polygon(0 0, 92% 0, 100% 100%, 0% 100%);
+    }
+
+
+    /* ----------- RWD_lesson ----------- */
+
+    .lesson-bg{
+        height: 880px;    
+        padding-top: 0px;
+        background-size: cover;
+        background-position: 42%;
+    }
+    
+    .lesson{
+        width: auto;
+        padding-top: 50px;
+        height: 880px;
+        background-color: rgb(255, 255, 255, 80%);
+    }
+
+
+    /* ----------- RWD_lesson table ----------- */
+
+    .lesson .lesson-fee{
+        width: auto;
+        height: 240px;
+        padding: 20px;
+    }
+    
+    .lesson-fee table th{
+        font-size: 12px;
+    }
+
+    .lesson-fee table .fee-time{
+        font-size: 12px;
+    }
+
+    .lesson-fee table td{
+        font-size: 12px;
+    }
+
+
+    /* ----------- RWD_lesson notice ----------- */
+
+    .lesson .lesson-notice{
+        width: auto;
+        height: auto;
+    }
+
+
+    .lesson .lesson-notice h4{
+        font-size: 36px;
+        width: 220px;
+        margin: 50px auto 30px;
+        height: 50px;
+    }
+    
+    .lesson .lesson-notice ul{
+        padding: 0 20px 0 40px
+    }
+    
+    .lesson .lesson-notice li{
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    
+
+
+}

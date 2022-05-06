@@ -1,0 +1,273 @@
+@media screen and (max-width:414px){
+
+
+    /* ----------- RWD_header bg ----------- */
+    header{
+        background-size:auto;
+    }
+
+    /* ----------- RWD_main snow ----------- */
+
+    .main-bg{
+        height: 1250px;
+        background-image: url(../IMG/report/main-bg_RWD.png);
+        background-position: 10% 0%;
+        padding-top: 50px;
+        box-sizing: border-box;
+        margin-bottom: 80px;
+    }
+
+    .main-snow{
+        width: 350px;
+        height: 650px;
+        display: block;
+        background-color: rgb(25, 41, 124, 70%);
+        clip-path: none;
+    }
+
+    /* ------ main-snow .left ------ */
+
+    .main-snow .left{
+        width: 350px;
+        height: 250px;
+    }
+
+    .main-snow .left::before{
+        display: none;
+    }
+
+    .main-snow .left .info-q{
+        height: 90px;
+        line-height: 90px;
+        margin: 0;  
+    }
+
+    .main-snow .left .info-a{
+        padding-left: 0px;
+        height: 80px;
+        margin: 0;
+    }
+
+    .main-snow .left .info-aa{
+        padding-left: 0px;
+        height: 80px;
+    }
+
+    .main-snow .left .info-a::before{
+        padding-right: 50px;
+    }
+
+    .main-snow .left .info-aa::before{
+        padding-right: 40px;
+    }
+
+    /* ------ main-snow .mid ------ */
+
+    .main-snow .mid{
+        width: 350px;
+        height: 200px;
+    }
+
+    .main-snow .mid::before{
+        width: 250px;
+        height: 2px;
+        
+        position: absolute;
+        right: 50px;
+        margin: 0%;
+    }
+
+    .main-snow .mid::after{
+        content: '';
+        display: block;
+        width: 250px;
+        height: 2px;
+        background-color: #fff;
+    
+        position: absolute;
+        right: 50px;
+        bottom: -2px;
+    }
+
+    .main-snow .mid .info-q{
+        height: 100px;
+        line-height: 100px;
+        margin: 0;
+    }
+
+    .main-snow .mid .info-a{
+        height: 100px;
+        line-height: 60px;
+        padding-top: 0;
+    }
+
+    /* ------ main-snow .right ------ */
+
+    .main-snow .right{
+        width: 350px;
+        height: 200px;
+    }
+
+    .main-snow .right::before{
+       display: none;
+    }
+
+    .main-snow .right .info-q{
+        height: 100px;
+        line-height: 100px;
+        margin: 0px; 
+    }
+
+    .main-snow .right .info-a{
+        height: 100px;
+        line-height: 60px;
+        padding-top: 0;
+    }
+
+
+    /* ----------- RWD_main weather ----------- */
+
+    .main-weather{
+        width: auto;
+        height: 500px;
+    }
+
+    .main-weather .title{
+        width: 330px;
+        font-size: 30px;
+        border-bottom: 3px solid black;
+    }
+
+    .temp{
+        display: block;
+    }
+
+    /* --------- main weather left --------- */
+    .temp .left{
+        display: none;
+    }
+
+    /* --------- main weather right --------- */
+
+    .temp .right{
+        width: auto;
+    }
+
+    .right ul{
+        display: flex;
+        width: auto;
+    }
+
+    .right li{
+        margin: 40px auto;
+        height: 300px;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .temp .right .bar{
+        width: 10px;
+    }
+    
+    /* --------- bar wed---------- */
+    .right li:nth-child(1){
+        display: none;
+    }
+    
+    /* --------- bar thu---------- */
+    .right li:nth-child(2){
+        background-color: rgb(255, 182, 48, 80%) ;
+        border-radius: 20px;
+    }
+    .temp .right .bar-thu::before{
+        left: -5px;
+    }
+    .temp .right .bar-thu::after{
+        left: -10px;
+    }
+
+    /* --------- bar fri---------- */
+    .temp .right .bar-fri::before{
+        left: -10px;
+    }
+    .temp .right .bar-fri::after{
+        left: -10px;
+    }
+
+    /* --------- bar sat---------- */
+    .temp .right .bar-sat::before{
+        left: -5px;
+    }
+    .temp .right .bar-sat::after{
+        left: -10px;
+    }
+
+    /* --------- bar sun---------- */
+    .temp .right .bar-sun::before{
+        left: -5px;
+    }
+    .temp .right .bar-sun::after{
+        left: -5px;
+    }
+
+
+    /* ----------- RWD_lift & course ----------- */
+
+    .lift_course{
+        display: none;
+    }
+    
+
+    /* ----------- RWD_live cam ----------- */
+
+    .live_cam .title{
+        width: 250px;
+        font-size: 40px;
+        height: 80px;
+        line-height: 80px;
+
+        border-bottom: 3px solid #000;
+    }
+
+    .live_cam .title::after{
+        display: none;
+    }
+
+    .live_cam .cam{
+        width: auto;
+    }
+
+    .live_cam .cam ul{
+        display: block;
+    }
+
+    .live_cam .cam .c-left{
+        width:auto;
+        margin-bottom: 80px;
+    }
+
+    .live_cam .cam .c-right{
+        width: auto;
+    }
+
+    .live_cam .cam img{
+        width: 300px;
+    }
+
+    .live_cam .cam span{
+        font-size: 24px;
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        margin: 10px auto;
+    }
+
+    .live_cam .cam span::after{
+        width: 250px;
+        height: 20px;
+        clip-path: none;
+        bottom: 5px;
+        left: 0px;
+    }
+
+}

@@ -1,0 +1,189 @@
+@media screen and (max-width:414px){
+
+    
+    
+    /* ----------- RWD_header bg ----------- */
+    
+    header{
+        background-position: left;
+    }
+
+    
+    /* ----------- RWD_course map ----------- */
+
+    .map-bg{
+        background-position: top center;
+    }
+
+    .course-map{
+        display:block;
+        width: auto;
+        height: 1100px;
+
+        padding-top: 50px;
+    }
+
+
+    /* ----------- RWD_map icon ----------- */
+    
+    .course-map .map-icon ul{
+        height: 550px;
+    }
+    
+    .course-map .map-icon li{
+        width: 350px;
+        margin: 0 auto 30px;
+
+        position: relative;
+    }
+
+    .course-map .map-icon li::before{
+        content: '';
+        display: block;
+        width: 80px;
+        height: 5px;
+        background-color: #ffb630;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+        position: absolute;
+        right: 0px;
+        bottom: 10px;
+        z-index: 1;
+    }
+
+    .course-map .map-icon li::after{
+        content: '';
+        display: block;
+        width: 220px;
+        height: 5px;
+        background-color:rgb(25, 41, 124, 70%);
+        clip-path: polygon(3% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+        position: absolute;
+        right: 0px;
+        bottom: 10px;
+    }
+
+    .course-map .map-icon li:nth-child(2n+1){
+        width: 350px;
+        margin: 0 auto 30px;
+    }
+    
+    .course-map .map-icon img{
+        height: 70px;
+        margin-left: 10px;
+        align-self: center;
+    }
+
+    .course-map .map-icon span{
+        flex-basis: 120px;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+
+    /* ----------- RWD_map pic ----------- */
+
+    .course-map .map-pic{
+        height: 450px;
+    }
+    
+    .course-map .map-pic img{
+        width: 330px;
+    }
+
+
+    /* ----------- RWD_course info ----------- */
+
+    .course-info{
+        width: auto;
+        display: block;
+        height: 1300px;
+        font-size: 16px;
+
+        position: relative;
+    }
+    
+    .course-info .info-left{
+        width: auto;
+
+        position: absolute;
+        top: 210px;
+        left: 0px;
+    }
+
+    .course-info .info-right{
+        width: auto;
+
+        position: absolute;
+        right: 0px;
+    }
+
+    .course-info .box{
+        width: 360px;
+        margin-bottom: 260px;
+    }
+
+    .course-info .info-left .box-g{
+        margin-top: 0px;
+    }
+
+    .course-info .info-right .box{
+        margin-top: 0px;
+    }
+
+    .course-info .info-left .box{
+        clip-path: none;
+        height: 160px;
+    }
+
+    .course-info .info-right .box{
+        clip-path: none;
+        height: 160px;
+    }
+
+    .course-info .box li{
+        padding: 20px 0 20px;
+
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .course-info .box span{
+        flex-grow: 1;
+    }
+
+    .course-info .name{
+        font-size: 30px;
+    }
+
+    .course-info .name::after{
+        width: 80px;
+        height: 2px;
+    
+        bottom: -5px;
+    }
+
+    .course-info .level::before{
+        width: 140px;
+        height: 40px;
+
+        left: 20px;
+        z-index: 1;
+    }
+    
+    .course-info .box .empty{
+        display: none;
+    }
+
+    .course-info .high{
+        display: none;
+    }
+
+    .course-info .long{}
+    .course-info .max-deg{}
+    .course-info .avg-deg{}
+
+
+}

@@ -1,0 +1,215 @@
+@media screen and (max-width:414px){
+
+    
+    /* ----------- RWD_header bg ----------- */  
+
+    header{
+        background-image: url("../IMG/index/top-bg_RWD.jpg");
+        height: 640px;
+    }
+    
+    /* ----------- RWD_header report  ----------- */
+
+    .header-report{
+        display: none;
+    }
+
+    /* ----------- RWD_ header bottom ----------- */
+        
+    .header-bottom{
+        clip-path: none;
+        height: 250px;
+        bottom: -160px;
+
+        clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+    }
+
+    .header-bottom img{
+        height: 100px;
+    }
+
+
+    /* ----------- RWD_ main btn ----------- */
+
+    .main{
+        width: auto;
+    }
+
+    .main-btn ul{
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+
+    .main-btn li{
+        margin: 30px auto 0;
+    }
+
+    .main-btn img{
+        height: 50px;
+        margin-top: 12px;
+    }
+
+    .main-btn a{
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+    }
+
+    .main-btn a span{
+        font-size: 16px;
+        margin-top: 10px;
+        font-weight:normal;
+    }
+
+
+    /* ----------- RWD_ main news ----------- */
+
+
+    .main-news h2{
+        font-size: 40px;
+        width: 250px;
+        height: 70px;
+        line-height: 70px;
+        border-bottom: 3px solid black; 
+        margin: 50px auto;
+    }
+
+    .main-news ul{
+        display: block;
+    }
+
+    .main-news li{
+        width: 350px;
+        margin: 30px auto;
+    }
+
+    .main-news img{
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+    }
+
+    .main-news a{
+        display: flex;
+        clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+        width: 350px;
+        height: 190px;
+    }
+
+    .main-news span{
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 60px;
+        width: 130px;
+        height: 100px;
+        padding-top: 20px;
+    }
+
+    .news1 span::before{
+        left: 0px;
+    }
+
+    .news2 span::before{
+        left: 0px;
+    }
+
+    .news3 span::before{
+        left: 0px;
+    }
+
+    .news4 span::before{
+        left: 0px;
+    }
+
+
+    /* ----------- RWD_ about ----------- */
+
+
+    .about-bg{
+        margin-top: 80px;
+        height: 1173px;
+    }
+    
+    .about{
+        width: auto;
+    }
+    
+    .about h2{
+        width: 350px;
+        font-size: 24px;
+        border-bottom: 3px solid black;
+        height: 60px;
+        line-height: 60px;
+    }
+    
+    .about-content{
+        position: static;
+        width: 350px;
+        margin: auto;
+        padding: 30px;
+        height: 350px;
+        margin-top: 70px;
+    }
+    
+    .about-content p{
+        font-size: 18px;
+    }
+    
+
+    /* --------- yt --------- */
+    
+    .yt{
+        position: static;
+        width: auto;
+        height: 600px;
+        padding-top: 20px;
+        margin-top: 30px;
+        clip-path: polygon(0 7%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    
+    .yt .yt-content{
+        margin: auto;
+        margin-top: 80px;
+        width: 350px;
+        height: 280px;
+    }
+    
+    .yt-content img{
+        width: 250px;
+        padding-top: 60px;
+    }
+    
+    .yt-content h3{
+        font-size: 22px;
+    }
+    
+    .yt-content h3::before{
+        width: 40px;
+        left: 0px;
+    }
+    
+    .yt-content h3::after{
+        width: 40px;
+        right: 0px;
+    }
+    
+    .yt-content p{
+        font-size: 14px;
+    }
+    
+    .yt-video img{
+        width: 350px;
+        
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 700px;
+    }
+
+
+
+
+
+
+}
+

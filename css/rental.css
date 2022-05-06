@@ -7,8 +7,8 @@ body{
     font-family: 'Public Sans', sans-serif;
 }
 
-
 /* --------- header top --------- */
+
 header{
     margin: auto;
     width: 100%;
@@ -21,13 +21,12 @@ header{
     position: relative;
     overflow: hidden;
 }
+
 .header-top{
     height: 75px;
     background-color:#19297C;
     
     position: relative;
-    
-    
 }
 
 .header-top:before{
@@ -38,7 +37,6 @@ header{
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); 
 }
 
-
 .header-menu{
     width: 1366px;
     margin: auto;
@@ -48,18 +46,15 @@ header{
     top: 0;
     right: 0;
     left: 0;
-    margin: auto;
-    
+    margin: auto;    
 }
-
 
 .header-menu .logo{
     width: 200px;
     height: 250px;
     background-color: #fff;
     display: block;
-    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
-    
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);   
 }
 
 .header-menu .logo img{
@@ -84,15 +79,11 @@ header{
     font-size: 64px;
     font-weight: bold;
 
-
-
     position: absolute;
     bottom: -520px;
     left: -500px;
     z-index: 99;
 }
-
-
 
 .header-menu li{
     flex-grow: 1;
@@ -128,8 +119,40 @@ header{
     color: #FFB630;
 }
 
-/* --------- header bottom --------- */
+/* <!-- ----------- hambur ----------------- -- */
 
+.hambur{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #FFB630;
+    margin-bottom: 8px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hambur.active .bar{
+    opacity: .8;
+}
+
+.hambur.active .bar:nth-child(1) {
+    width: 20px;
+    transform: translateX(40px);
+}
+
+.hambur.active .bar:nth-child(2) {
+    transform: translateX(20px); 
+}
+
+.hambur.active .bar:nth-child(3) {
+    width: 60px;
+}
+
+/* --------- header bottom --------- */
 
 .header-bottom{
     position: absolute;
@@ -139,10 +162,7 @@ header{
     margin: auto;
     
     clip-path: polygon(0 20%, 100% 70%, 100% 100%, 0% 100%);
-
-     
 }
-
 
 .header-bottom img{
     display: block;
@@ -157,14 +177,8 @@ header{
 
 .main{
     width: 1366px;
-    height: 1100px;
     margin: auto;
     padding-top: 150px;
-
-    /* background-image: url('../IMG/rental/1920x700_burton202110.jpg');
-    background-repeat: no-repeat;
-    background-position: top center; */
-
 }
 
 .item{
@@ -208,8 +222,6 @@ header{
     z-index: -1;
 }
 
-
-
 .item ul{
     display: flex;
     margin-top: 100px;
@@ -228,13 +240,12 @@ header{
 }
 
 .item .item-pic p{
-    font-size: 16px;
+    font-size: 28px;
     margin: 20px;
     text-align: center;
 }
 
 .item .item-pic p:nth-child(2){
-    font-size: 24px;
+    font-size: 20px;
 }
-
 

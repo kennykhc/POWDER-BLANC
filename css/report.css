@@ -26,8 +26,6 @@ header{
     background-color:#19297C;
     
     position: relative;
-    
-    
 }
 
 .header-top:before{
@@ -37,7 +35,6 @@ header{
     background-color: rgb(25, 41, 124, 50%);
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); 
 }
-
 
 .header-menu{
     width: 1366px;
@@ -49,9 +46,7 @@ header{
     right: 0;
     left: 0;
     margin: auto;
-    
 }
-
 
 .header-menu .logo{
     width: 200px;
@@ -59,7 +54,6 @@ header{
     background-color: #fff;
     display: block;
     clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
-    
 }
 
 .header-menu .logo img{
@@ -84,15 +78,11 @@ header{
     font-size: 64px;
     font-weight: bold;
 
-
-
     position: absolute;
     bottom: -520px;
     left: -500px;
     z-index: 99;
 }
-
-
 
 .header-menu li{
     flex-grow: 1;
@@ -128,6 +118,40 @@ header{
     color: #FFB630;
 }
 
+/* <!-- ----------- hambur ----------------- -- */
+
+.hambur{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #FFB630;
+    margin-bottom: 8px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hambur.active .bar{
+    opacity: .8;
+}
+
+.hambur.active .bar:nth-child(1) {
+    width: 20px;
+    transform: translateX(40px);
+}
+
+.hambur.active .bar:nth-child(2) {
+    transform: translateX(20px); 
+}
+
+.hambur.active .bar:nth-child(3) {
+    width: 60px;
+}
+
+
 /* --------- header bottom --------- */
 
 
@@ -139,8 +163,6 @@ header{
     margin: auto;
     
     clip-path: polygon(0 20%, 100% 70%, 100% 100%, 0% 100%);
-
-     
 }
 
 .header-bottom img{
@@ -170,15 +192,17 @@ header{
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
     margin-bottom: 50px;
     display: flex;
-
 }
+
 /* ------ main-snow .left ------ */
+
 .main-snow .left{
     flex-grow: 4;
     width: 200px;
     height: 250px;
     position: relative;
 }
+
 .main-snow .left::before{
     content: '';
     display: block;
@@ -227,6 +251,7 @@ header{
     font-size: 24px;
     padding-right: 100px;
 }
+
 
 /* ------ main-snow .mid ------ */
 .main-snow .mid{
@@ -319,10 +344,12 @@ header{
     height: 60px;
     width: 1000px;  
 }
-/* --------- main weather left --------- */
+
 .temp{
     display: flex;
 }
+
+/* --------- main weather left --------- */
 
 .temp .left{
     width: 450px;
@@ -515,7 +542,6 @@ header{
 }
 
 .lift_course .pic{
-    
     height: 870px;
     width: 700px; 
 }
@@ -570,13 +596,13 @@ header{
     content: '';
     display: block;
     width: 400px;
-    height: 50px;
-    background-color: yellow;
+    height: 40px;
+    background-color: rgb(255, 255, 0, 80%);
 
     clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
 
     position: absolute;
-    bottom: 5px;
+    bottom: 15px;
     left: 180px;
     z-index: -1;
 }
@@ -598,11 +624,10 @@ header{
     flex-grow: 1;
 }
 
-.live_cam .cam .r-left{
+.live_cam .cam .c-right{
     width: 500px;
     flex-grow: 1;
 }
-
 
 .live_cam .cam img{
     width: 500px;
@@ -626,7 +651,7 @@ header{
     display: block;
     width: 350px;
     height: 30px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 0, 80%);
 
     clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
 

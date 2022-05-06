@@ -21,13 +21,12 @@ header{
     position: relative;
     overflow: hidden;
 }
+
 .header-top{
     height: 75px;
     background-color:#19297C;
     
     position: relative;
-    
-    
 }
 
 .header-top:before{
@@ -37,7 +36,6 @@ header{
     background-color: rgb(25, 41, 124, 50%);
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%); 
 }
-
 
 .header-menu{
     width: 1366px;
@@ -49,9 +47,7 @@ header{
     right: 0;
     left: 0;
     margin: auto;
-    
 }
-
 
 .header-menu .logo{
     width: 200px;
@@ -59,7 +55,6 @@ header{
     background-color: #fff;
     display: block;
     clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
-    
 }
 
 .header-menu .logo img{
@@ -84,15 +79,11 @@ header{
     font-size: 64px;
     font-weight: bold;
 
-
-
     position: absolute;
     bottom: -520px;
     left: -500px;
     z-index: 99;
 }
-
-
 
 .header-menu li{
     flex-grow: 1;
@@ -128,6 +119,39 @@ header{
     color: #FFB630;
 }
 
+/* <!-- ----------- hambur ----------------- -- */
+
+.hambur{
+    display: none;
+}
+
+.bar{
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #FFB630;
+    margin-bottom: 8px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hambur.active .bar{
+    opacity: .8;
+}
+
+.hambur.active .bar:nth-child(1) {
+    width: 20px;
+    transform: translateX(40px);
+}
+
+.hambur.active .bar:nth-child(2) {
+    transform: translateX(20px); 
+}
+
+.hambur.active .bar:nth-child(3) {
+    width: 60px;
+}
+
 /* --------- header bottom --------- */
 
 
@@ -138,11 +162,8 @@ header{
     left: 0;
     margin: auto;
     
-    clip-path: polygon(0 20%, 100% 70%, 100% 100%, 0% 100%);
-
-     
+    clip-path: polygon(0 20%, 100% 70%, 100% 100%, 0% 100%);    
 }
-
 
 .header-bottom img{
     display: block;
@@ -237,11 +258,11 @@ header{
 }
 
 .course-info .box-g{
-    background-color: #008715;
+    background-color: #1ba21b;
 }
 
 .course-info .box-r{
-    background-color: #EC0000;
+    background-color: #ff2424;
 }
 
 .course-info .box-b{
