@@ -234,6 +234,12 @@ header{
     line-height: 60px;
 }
 
+.fee .btn .btn_color_ch{
+    background-color: #FFB630;
+    color: black;
+    font-weight: bold;
+}
+
 
 /* -------------- form -------------- */ 
 

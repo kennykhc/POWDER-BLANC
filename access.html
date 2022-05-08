@@ -53,42 +53,42 @@
 
     <!-- ---------------- map ------------------ -->
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14444.143607897951!2d121.56549232672185!3d25.168265563187532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442b2648c55e835%3A0xd919763355207088!2z5pOO5aSp5bSX5aSn6I2J5Y6f!5e0!3m2!1szh-TW!2stw!4v1650184307117!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6048.761252491437!2d-98.69506338444059!3d29.45503514468192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c42fc31f2dfd1%3A0x15d3e7a100d8c03c!2sAquatica%20San%20Antonio!5e0!3m2!1szh-TW!2stw!4v1651939219739!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
     <!-- ---------------- trans ------------------ -->
 
-    <article class="trans">
+    <article class="trans trans_bus">
 
-        <img src="./IMG/access/bus2.png" alt="">
+        <img class="bus_pich3" src="./IMG/access/bus2.png" alt="">
 
         <section class="info bus-info">
-            <h3>BY BUS</h3>
-            <p>Take Loop 410 West to SeaWorld exit.<br>Take Highway 151 West to Westover Hills Blvd.<br>and turn left. Westover Hills Blvd. will take you directly to entrance.</p>
+            <h3 class="bus_pich3">BY BUS</h3>
+            <p class="bus_p">Take Loop 410 West to SeaWorld exit.<br>Take Highway 151 West to Westover Hills Blvd.<br>and turn left. Westover Hills Blvd. will take you directly to entrance.</p>
 
         </section>
 
     </article>
 
-    <article class="trans">
+    <article class="trans trans_car">
 
-        <img src="./IMG/access/car2.jpg" alt="">
+        <img class="car_pich3" src="./IMG/access/car2.jpg" alt="">
         
         <section class="info car-info">
-            <h3>BY CAR</h3>
-            <p>Take I-37 South to Highway 90 West.<br>Exit Highway 151 West. Take the Westover Hills Blvd. exit and turn left. Westover Hills Blvd. will take you directly to entrance.</p>
+            <h3 class="car_pich3">BY CAR</h3>
+            <p class="car_p">Take I-37 South to Highway 90 West.<br>Exit Highway 151 West. Take the Westover Hills Blvd. exit and turn left. Westover Hills Blvd. will take you directly to entrance.</p>
 
         </section>
 
     </article>
 
-    <article class="trans">
+    <article class="trans trans_train">
 
-        <img src="./IMG/access/train2.png" alt="">
+        <img class="train_pich3" src="./IMG/access/train2.png" alt="">
         
         <section class="info train-info">
-            <h3>BY TRAIN</h3>
-            <p>Take I-10 West, which becomes Highway 90 West.<br> Take Highway 90 West to Highway 151 West.<br> Exit at Westover Hills Blvd. and turn left. Westover Hills Blvd. will take you directly to entrance.</p>
+            <h3 class="train_pich3">BY TRAIN</h3>
+            <p class="train_p">Take I-10 West, which becomes Highway 90 West.<br> Take Highway 90 West to Highway 151 West.<br> Exit at Westover Hills Blvd. and turn left. Westover Hills Blvd. will take you directly to entrance.</p>
 
         </section>
 
@@ -118,16 +118,25 @@
     
                 <section class="info-sns">
 
-                    <a href="#"><img src="./IMG/sns_icon/yt_icon.png" alt=""></a>
-                    <a href="#"><img src="./IMG/sns_icon/twitter_icon.png" alt=""></a>
-                    <a href="#"><img src="./IMG/sns_icon/ig_icon.png" alt=""></a>
-                    <a href="#"><img src="./IMG/sns_icon/fb_icon.png" alt=""></a>
+                    <a href="#" class="sns"><img id="yt" src="./IMG/sns_icon/yt_icon.png" alt=""></a>
+                    <a href="#" class="sns"><img id="twitter" src="./IMG/sns_icon/twitter_icon.png" alt=""></a>
+                    <a href="#" class="sns"><img id="ig" src="./IMG/sns_icon/ig_icon.png" alt=""></a>
+                    <a href="#" class="sns"><img id="fb" src="./IMG/sns_icon/fb_icon.png" alt=""></a>
 
                 </section>    
             </section>
         </section>
     </footer>
 
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+    <script src="./js/access.js"></script>
     <script src="./js/common.js"></script>
 </body>
 </html>

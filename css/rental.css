@@ -249,3 +249,60 @@ header{
     font-size: 20px;
 }
 
+
+/* -------------- animation area -------------- */
+
+.ani_area{
+    position: relative;
+}
+
+.road{
+    background-image: url(../IMG/rental/road.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 200px;
+}
+
+.man{
+    width: 150px;
+
+    position: absolute;
+    right: -150px;
+    bottom: 30px;
+
+    animation: man 5s linear infinite;
+}
+
+@keyframes man{
+    0%{
+        right: -150px;
+        transform: translateY(0px);
+        transform: rotate(0deg);
+    }
+    30%{
+        right: 600px;
+        transform: translateY(-80px);
+    }
+    40%{
+        right: 750px;
+        transform: translateY(-80px);
+        transform: rotate(-900deg);
+    }
+    45%{
+        right: 850px;
+        transform: translateY(-80px);
+        transform: rotate(800deg);
+    }
+    50%{
+        right: 900px;
+        transform: rotate(700deg);
+    }
+    100%{
+        right: 1750px;
+        
+        transform:translateY(-70px);
+        
+        
+    }
+    
+}

@@ -197,13 +197,14 @@
         font-size: 14px;
     }
     
-    .yt-video img{
+    .yt-video{
         width: 350px;
+        height: 230px;
         
         left: 0;
         right: 0;
         margin: auto;
-        top: 700px;
+        top: 680px;
     }
 
 

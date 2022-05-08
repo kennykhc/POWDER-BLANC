@@ -10,11 +10,25 @@ body{
 
 /* --------- header top --------- */
 
+
+.header_video{
+    margin: auto;
+    display: block;
+
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+
 header{
     margin: auto;
     width: 100%;
     height: 1000px;
-    background-image: url("../IMG/index/top-bg.jpeg");
+    /* background-image: url("../IMG/index/top-bg.jpeg"); */
     background-repeat:no-repeat;
     background-size: cover;
     background-position: top center;
@@ -152,7 +166,7 @@ header{
     
     position: absolute;
     right: 0;
-    bottom: -720px;
+    bottom: -400px;
     z-index: 99;
     
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
@@ -472,8 +486,8 @@ header{
 }
 
 .yt .yt-content{
-    width: 650px;
-    height: 400px;
+    width: 640px;
+    height: 360px;
     background-color: white;
     margin: 100px auto ;
 }
@@ -483,7 +497,7 @@ header{
     display: block;
     margin: auto;   
     
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .yt-content h3{
@@ -528,12 +542,10 @@ header{
     text-align: center;
 }
 
-.yt-video img{
-    width: 600px;
-    display: block;
+.yt-video{
 
     position: absolute;
-    left: 100px;
+    left: 60px;
     bottom: 60px;
 
 }

@@ -94,4 +94,29 @@
         font-size: 16px;
     }
 
+    /* ----------- RWD_animation area ----------- */
+
+    .man{
+        width: 100px;
+        bottom: 100px;
+
+        animation: man 3s linear infinite;
+    }
+
+    @keyframes man{
+        0%{
+            right: -150px;
+        }
+        20%{
+            right: 100px;
+            transform: rotate(0deg);
+        }
+        100%{
+            right: 650px;
+            transform: rotate(-700deg);    
+        }
+    }
+
+    
+
 }
