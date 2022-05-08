@@ -39,10 +39,10 @@ let fb = document.querySelector("#fb")
 
 
 yt.addEventListener("mouseover",function(){
-    document.getElementById("yt").src="../IMG/sns_icon/yt_icon_c.png";
+    document.getElementById("yt").src=("./IMG/sns_icon/yt_icon_c.png");
 })
 yt.addEventListener("mouseout",function(){
-    document.getElementById("yt").src="../IMG/sns_icon/yt_icon.png";  
+    document.getElementById("yt").src=("./IMG/sns_icon/yt_icon.png");  
 })
 
 

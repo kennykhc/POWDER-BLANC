@@ -17,7 +17,7 @@ btn_early.addEventListener("click", function(e){
     btn_early.classList.toggle("btn_color_ch");
 
 
-    document.getElementById("fee_pic").src="../IMG/lift_fee/fee-ear_spr.png";
+    document.getElementById("fee_pic").src=("./IMG/lift_fee/fee-ear_spr.png");
 })
 
 
@@ -34,7 +34,7 @@ btn_regular.addEventListener("click", function(e){
     btn_regular.classList.toggle("btn_color_ch");
 
 
-    document.getElementById("fee_pic").src=("../IMG/lift_fee/fee-reg.png");
+    document.getElementById("fee_pic").src=("./IMG/lift_fee/fee-reg.png");
 })
 
 
@@ -51,7 +51,7 @@ btn_spring.addEventListener("click", function(e){
     btn_spring.classList.toggle("btn_color_ch");
 
 
-    document.getElementById("fee_pic").src=("../IMG/lift_fee/fee-ear_spr.png");
+    document.getElementById("fee_pic").src=("./IMG/lift_fee/fee-ear_spr.png");
 })
 
 
@@ -68,5 +68,5 @@ btn_night.addEventListener("click", function(e){
     btn_night.classList.toggle("btn_color_ch");
 
 
-    document.getElementById("fee_pic").src=("../IMG/lift_fee/fee-np.png");
+    document.getElementById("fee_pic").src=("./IMG/lift_fee/fee-np.png");
 })
