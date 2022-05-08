@@ -17,7 +17,7 @@ btn_early.addEventListener("click", function(e){
     btn_early.classList.toggle("btn_color_ch");
 
 
-    document.getElementById("fee_pic").src=("../IMG/lift_fee/fee-ear_spr.png");
+    document.getElementById("fee_pic").src="../IMG/lift_fee/fee-ear_spr.png";
 })
 
 
